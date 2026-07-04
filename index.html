@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shailender Rajan K — Cybersecurity Enthusiast</title>
+<meta name="description" content="Portfolio of Shailender Rajan K, a cybersecurity student specializing in CTFs, ethical hacking, and secure application development.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION — edit nav links here if you add/rename pages.
+     The "segment-current" span shows which page you're on.
+     ============================================================ -->
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="nav-path">
+      <span>~/shailender</span><span class="sep">/</span><span class="segment-current">home</span>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">=</button>
+    <nav class="nav-links">
+      <a href="index.html" aria-current="page">home</a>
+      <a href="about.html">about</a>
+      <a href="projects.html">projects</a>
+      <a href="contact.html">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============================================================
+       HERO — EDIT YOUR NAME / TITLE / PITCH HERE
+       ============================================================ -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow"><span class="status-dot"></span>available for internships</span>
+
+      <h1 class="reveal">
+        Shailender Rajan K —<br>
+        breaking things to learn how <span class="accent-word">to defend them.</span>
+      </h1>
+
+      <p class="lede reveal">
+        Third-year Cybersecurity engineering student who spends more time in TryHackMe
+        rooms and CTF terminals than lecture halls would like. I build small, real things —
+        like a Bluetooth mesh SOS system — and I break bigger things on purpose, on
+        HackTheBox and in bug bounty practice, to understand how they fail.
+      </p>
+
+      <div class="btn-row reveal">
+        <a href="projects.html" class="btn btn-primary">view projects</a>
+        <a href="contact.html" class="btn btn-ghost">get in touch</a>
+      </div>
+
+      <div class="hero-meta reveal-group">
+        <div class="reveal">
+          <div class="label">Focus</div>
+          <div class="value">Cybersecurity &amp; VAPT</div>
+        </div>
+        <div class="reveal">
+          <div class="label">Currently</div>
+          <div class="value">3rd yr, BE-CSE (Cybersecurity)</div>
+        </div>
+        <div class="reveal">
+          <div class="label">Based in</div>
+          <div class="value">Coimbatore, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS STRIP — EDIT YOUR STACK / TOOLS HERE
+       Each tag is one skill. Add or remove <span class="tag"> lines.
+       ============================================================ -->
+  <section>
+    <div class="wrap">
+      <span class="divider-label reveal">$ whoami --stack</span>
+      <div class="tag-row reveal-group">
+        <span class="tag reveal">python</span>
+        <span class="tag reveal">java</span>
+        <span class="tag reveal">c</span>
+        <span class="tag reveal">html-css-js</span>
+        <span class="tag reveal">linux</span>
+        <span class="tag reveal">ctf</span>
+        <span class="tag reveal">vapt</span>
+        <span class="tag reveal">owasp</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       QUICK HIGHLIGHTS — pulled from certifications/competitions.
+       EDIT: swap these three cards for your top achievements.
+       ============================================================ -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">highlights</span>
+        <h2>A short trail of proof</h2>
+        <p>Not a wall of certificates — just the ones that mattered.</p>
+      </div>
+
+      <div class="grid-3 reveal-group">
+        <div class="card reveal">
+          <div class="card-meta">PUBLISHED RESEARCH</div>
+          <h3>ChainSOS</h3>
+          <p>Bluetooth mesh-based help-seeker app, published in the IJEDR International Journal.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-meta">COMPETITIONS</div>
+          <h3>CTF &amp; Hackathons</h3>
+          <p>Exploit-X KPR CTF, HackP46lu CTF, and the KRCE 24-Hour Hackathon.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-meta">CERTIFICATIONS</div>
+          <h3>Ethical Hacking &amp; VAPT</h3>
+          <p>Beginner-level certifications in Ethical Hacking and VAPT, plus Linux &amp; Bug Bounty fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER — EDIT YOUR LINKS HERE (same on every page)
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; <span id="year"></span> Shailender Rajan K</span>
+    <div class="footer-links">
+      <a href="mailto:shailenderrajank@gmail.com">email</a>
+      <a href="https://github.com/iamshailenderr" target="_blank" rel="noopener">github</a>
+      <a href="https://www.linkedin.com/in/shailender-rajan-kadhir-b52030244" target="_blank" rel="noopener">linkedin</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
