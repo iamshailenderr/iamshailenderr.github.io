@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Shailender Rajan K</title>
+<meta name="description" content="Projects by Shailender Rajan K, including ChainSOS, a Bluetooth mesh-based help-seeker application.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="nav-path">
+      <span>~/shailender</span><span class="sep">/</span><span class="segment-current">projects</span>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">=</button>
+    <nav class="nav-links">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="projects.html" aria-current="page">projects</a>
+      <a href="contact.html">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">projects</span>
+      <h1 class="reveal">Things I've built</h1>
+      <p class="lede reveal">
+        A short list for now — it grows every time I finish something worth showing.
+        Each one below is real, not a tutorial clone.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECT LIST — EDIT / DUPLICATE THIS BLOCK PER PROJECT
+       Copy everything from <div class="card project-card reveal">
+       down to its closing </div> to add a new project.
+       ============================================================ -->
+  <section>
+    <div class="wrap">
+      <div class="reveal-group" style="display:flex; flex-direction:column; gap:1.5rem;">
+
+        <div class="card project-card reveal">
+          <div class="card-meta">PUBLISHED · IJEDR INTERNATIONAL JOURNAL</div>
+          <h3>ChainSOS — Bluetooth Mesh-Based Help Seeker</h3>
+          <p>
+            An academic project exploring how a chain of Bluetooth-connected devices can
+            relay an SOS signal across a mesh network — useful in situations where a
+            single device has no direct network access, but a nearby device does.
+            The result was written up and published as a research paper.
+          </p>
+          <div class="tag-row" style="margin-top: 1rem;">
+            <span class="tag">bluetooth-mesh</span>
+            <span class="tag">networking</span>
+            <span class="tag">embedded-concepts</span>
+          </div>
+        </div>
+
+        <!-- Placeholder card — replace with your next project, or delete this block -->
+        <div class="card project-card reveal">
+          <div class="card-meta">IN PROGRESS</div>
+          <h3>Next build — coming soon</h3>
+          <p>
+            Future Build: An AI-powered cybersecurity assistant designed to simplify security operations by analyzing alerts, prioritizing threats, and providing actionable insights. Built to enhance security monitoring and support faster, more informed incident response.
+
+          </p>
+          <div class="btn-row" style="margin-top: 1rem;">
+            <a href="https://github.com/iamshailenderr" target="_blank" rel="noopener" class="btn btn-ghost">see github activity</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; <span id="year"></span> Shailender Rajan K</span>
+    <div class="footer-links">
+      <a href="mailto:shailenderrajank@gmail.com">email</a>
+      <a href="https://github.com/iamshailenderr" target="_blank" rel="noopener">github</a>
+      <a href="https://www.linkedin.com/in/shailender-rajan-kadhir-b52030244" target="_blank" rel="noopener">linkedin</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
